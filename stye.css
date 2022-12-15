@@ -1,0 +1,69 @@
+body {
+    color: rgb(255, 255, 255);
+    background-image: url('lfc.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.red-card {
+    background-color: rgba(248, 4, 4, 0.6);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#logo {
+    text-align: center;
+}
+
+.first-text {
+    text-align: center;
+    font-size: 37px;
+    font-family: sans-serif;
+}
+
+input {
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-bottom: 1px solid rgb(246, 246, 250);
+    background-color: transparent;
+    padding-bottom: 7px;
+    font-size: 23px;
+    color: rgb(245, 245, 252);
+    text-align: center;
+}
+
+input::placeholder {
+    color: white;
+    text-align: center;
+}
+
+.third-text {
+    font-size: 37px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+}
+
+.button {
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-align: center;
+}
+
+a{
+    color: white;
+}
